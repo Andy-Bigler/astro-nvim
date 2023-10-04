@@ -7,6 +7,8 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    mouse = "", -- disable mouse
+    guicursor = "n:hor20-Cursor/lCursor", -- underline cursor
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
